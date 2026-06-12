@@ -2,12 +2,12 @@
 
 ## Summary
 
-- collected_at: `2026-06-12T17:57:53+09:00`
+- collected_at: `2026-06-12T18:31:00+09:00`
 - repository: `https://github.com/ilhoko-dreamlabs/kr-co-dreamlabs-assets-static`
-- commit: `032773d8adcebe6df0c0b99ae1c05d30d1b81717`
+- repository commit: `6dd621a39a2496c941cb060841bd25a338eaab66`
 - GitHub Pages source: `main:/`
 - custom domain: `assets.dreamlabs.co.kr`
-- status: `dns_configured_http_live_https_pending`
+- status: `dns_configured_https_enforced_smoke_passed`
 
 ## DNS Change
 
@@ -27,6 +27,7 @@
 | authoritative DNS | `assets.dreamlabs.co.kr CNAME ilhoko-dreamlabs.github.io` |
 | `1.1.1.1` | `assets.dreamlabs.co.kr CNAME ilhoko-dreamlabs.github.io` |
 | `8.8.8.8` | `assets.dreamlabs.co.kr CNAME ilhoko-dreamlabs.github.io` |
+| local resolver | `assets.dreamlabs.co.kr CNAME ilhoko-dreamlabs.github.io` |
 
 ## GitHub Pages
 
@@ -34,36 +35,49 @@
 {
   "status": "built",
   "cname": "assets.dreamlabs.co.kr",
-  "html_url": "http://assets.dreamlabs.co.kr/",
+  "html_url": "https://assets.dreamlabs.co.kr/",
   "source": {
     "branch": "main",
     "path": "/"
   },
   "public": true,
-  "https_enforced": false
+  "https_certificate": {
+    "state": "approved",
+    "domains": [
+      "assets.dreamlabs.co.kr"
+    ],
+    "expires_at": "2026-09-10"
+  },
+  "https_enforced": true
 }
 ```
 
-## HTTP Smoke
+## HTTP Redirect
+
+| URL | status | location |
+| --- | ---: | --- |
+| `http://assets.dreamlabs.co.kr/` | 301 | `https://assets.dreamlabs.co.kr/` |
+
+## HTTPS Smoke
 
 | URL | status | content type |
 | --- | ---: | --- |
-| `http://assets.dreamlabs.co.kr/` | 200 | `text/html; charset=utf-8` |
-| `http://assets.dreamlabs.co.kr/assets-manifest.json` | 200 | `application/json; charset=utf-8` |
-| `http://assets.dreamlabs.co.kr/brand/` | 200 | `text/html; charset=utf-8` |
-| `http://assets.dreamlabs.co.kr/product-logos/` | 200 | `text/html; charset=utf-8` |
-| `http://assets.dreamlabs.co.kr/footer/` | 200 | `text/html; charset=utf-8` |
-| `http://assets.dreamlabs.co.kr/brand/dreamlabs/logos/dreamlabs-logo-color.png` | 200 | `image/png` |
-| `http://assets.dreamlabs.co.kr/brand/dreamlabs/favicon/favicon.ico` | 200 | `image/vnd.microsoft.icon` |
+| `https://assets.dreamlabs.co.kr/` | 200 | `text/html; charset=utf-8` |
+| `https://assets.dreamlabs.co.kr/assets-manifest.json` | 200 | `application/json; charset=utf-8` |
+| `https://assets.dreamlabs.co.kr/brand/` | 200 | `text/html; charset=utf-8` |
+| `https://assets.dreamlabs.co.kr/product-logos/` | 200 | `text/html; charset=utf-8` |
+| `https://assets.dreamlabs.co.kr/footer/` | 200 | `text/html; charset=utf-8` |
+| `https://assets.dreamlabs.co.kr/brand/dreamlabs/logos/dreamlabs-logo-color.png` | 200 | `image/png` |
+| `https://assets.dreamlabs.co.kr/brand/dreamlabs/favicon/favicon.ico` | 200 | `image/vnd.microsoft.icon` |
 
-## HTTPS Status
+## SSL Activation Actions
 
-HTTPS is not live yet.
-
-- `https://assets.dreamlabs.co.kr/`: SSL connection not established
-- `https://assets.dreamlabs.co.kr/assets-manifest.json`: SSL connection not established
-- GitHub API response when enabling HTTPS: `The certificate does not exist yet`
-- GitHub Pages health endpoint: `202 Accepted`
+- Initial HTTPS enforcement attempt failed with `The certificate does not exist yet`.
+- GitHub Pages domain health showed DNS valid, HTTPS eligible, and no CAA error.
+- GitHub Pages build was retriggered.
+- Custom domain was removed and re-added through the GitHub Pages API to trigger certificate issuance after DNS propagation.
+- GitHub certificate became `approved`.
+- HTTPS enforcement was enabled successfully.
 
 ## SSoT Candidate Update Prompt
 
@@ -73,14 +87,16 @@ DreamLabs SSoT candidate update request.
 Session: asc_20260527192215214_dddfdda3
 Repository: kr-co-dreamlabs-assets-static
 Repository URL: https://github.com/ilhoko-dreamlabs/kr-co-dreamlabs-assets-static
-Commit: 032773d8adcebe6df0c0b99ae1c05d30d1b81717
+Repository commit: 6dd621a39a2496c941cb060841bd25a338eaab66
 Service: assets.dreamlabs.co.kr
 Deployment lane: GitHub Pages, branch source main:/, static site
 Domain: assets.dreamlabs.co.kr
 DNS: CNAME assets -> ilhoko-dreamlabs.github.io
-DNS status: configured and propagated to authoritative DNS, 1.1.1.1, and 8.8.8.8
-HTTP status: live, representative smoke URLs return 200
-HTTPS status: pending, GitHub Pages certificate not created yet
+DNS status: configured and propagated to authoritative DNS, 1.1.1.1, 8.8.8.8, and local resolver
+HTTP status: redirects to HTTPS
+HTTPS certificate status: GitHub Pages certificate approved, expires 2026-09-10
+HTTPS enforcement: enabled
+HTTPS smoke status: passed for home, manifest, category pages, logo PNG, and favicon ICO
 
 Create or update candidate objects:
 - resource.domain.assets-dreamlabs-co-kr
@@ -90,30 +106,10 @@ Create or update candidate objects:
 - policy.dreamlabs-public-disclosure-scope
 
 Recommended status:
-- domain/service runtime_status: verification_required until HTTPS smoke passes
+- domain/service runtime_status: evidence_ready_for_runtime_applied_review
 - DNS substatus: dns_configured
-- HTTP substatus: http_live
-- HTTPS substatus: https_pending
+- HTTP substatus: redirects_to_https
+- HTTPS substatus: certificate_approved_https_enforced_smoke_passed
 
-Do not mark runtime_applied until HTTPS certificate is active, HTTPS enforcement succeeds, and HTTPS smoke checks pass.
-```
-
-## Next Check
-
-Poll GitHub Pages until the certificate exists, then run:
-
-```powershell
-$OWNER = "ilhoko-dreamlabs"
-$REPO = "kr-co-dreamlabs-assets-static"
-$DOMAIN = "assets.dreamlabs.co.kr"
-$BRANCH = "main"
-
-gh api `
-  --method PUT `
-  -H "Accept: application/vnd.github+json" `
-  "/repos/$OWNER/$REPO/pages" `
-  -F "https_enforced=true" `
-  -f "cname=$DOMAIN" `
-  -f "source[branch]=$BRANCH" `
-  -f "source[path]=/"
+Do not mark canonical/runtime_applied unless SSoT promotion policy accepts this evidence.
 ```
