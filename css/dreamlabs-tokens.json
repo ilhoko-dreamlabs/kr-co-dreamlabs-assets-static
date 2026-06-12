@@ -1,0 +1,16 @@
+{
+  "schema": "dreamlabs-design-tokens-v0.1-candidate",
+  "status": "candidate",
+  "generated": "2026-05-28",
+  "tokens": {
+    "color.ink": "#1c2430",
+    "color.muted": "#667085",
+    "color.surface": "#ffffff",
+    "color.surface.soft": "#f6f8fb",
+    "color.line": "#d9e0ea",
+    "color.blue": "#2457c5",
+    "color.red": "#d9343f",
+    "radius.default": "8px",
+    "shadow.default": "0 12px 28px rgba(28, 36, 48, 0.08)"
+  }
+}

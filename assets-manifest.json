@@ -1,0 +1,1157 @@
+{
+  "schema": "dreamlabs-assets-manifest-v0.1",
+  "generated": "2026-05-28",
+  "version": "0.1.0-candidate",
+  "source_scope": [
+    "operator-provided DreamLabs logo source folder",
+    "operator-provided DreamLabs product-logo source folder",
+    "operator-provided DreamLabs 2023 renewal source folder"
+  ],
+  "planned_host": "assets.dreamlabs.co.kr",
+  "status": "candidate",
+  "approved": false,
+  "runtime_applied": false,
+  "starter_chat_session_id": "asc_20260527192215214_dddfdda3",
+  "authority_note": "Candidate/current working registry only; not promoted, canonical, approved baseline, or runtime-applied.",
+  "excluded_scope": [
+    "certificates",
+    "MOU images",
+    "internal screenshots",
+    "shortcut-only external folders"
+  ],
+  "assets": [
+    {
+      "id": "brand.dreamlabs.app-icons.apple-touch-icon-source.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/app-icons/apple-touch-icon-source.png",
+      "usage": [
+        "brand",
+        "app-icon",
+        "source"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-logo-source/apple-touch-icon.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 42,
+        "height": 42
+      }
+    },
+    {
+      "id": "brand.dreamlabs.app-icons.dreamlabs-app-icon-180.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/app-icons/dreamlabs-app-icon-180.png",
+      "usage": [
+        "brand",
+        "app-icon"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "generated",
+      "source_ref": "dreamlabs-logo-source/colorDico.png",
+      "normalized_from": "resized to 180x180 PNG from colorDico.png",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 180,
+        "height": 180
+      }
+    },
+    {
+      "id": "brand.dreamlabs.app-icons.dreamlabs-app-icon-192.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/app-icons/dreamlabs-app-icon-192.png",
+      "usage": [
+        "brand",
+        "app-icon"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "generated",
+      "source_ref": "dreamlabs-logo-source/colorDico.png",
+      "normalized_from": "resized to 192x192 PNG from colorDico.png",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 192,
+        "height": 192
+      }
+    },
+    {
+      "id": "brand.dreamlabs.app-icons.dreamlabs-app-icon-512.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/app-icons/dreamlabs-app-icon-512.png",
+      "usage": [
+        "brand",
+        "app-icon"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "generated",
+      "source_ref": "dreamlabs-logo-source/colorDico.png",
+      "normalized_from": "resized to 512x512 PNG from colorDico.png",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 512,
+        "height": 512
+      }
+    },
+    {
+      "id": "brand.dreamlabs.app-icons.dreamlabs-icon-source.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/app-icons/dreamlabs-icon-source.png",
+      "usage": [
+        "brand",
+        "app-icon",
+        "source"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-logo-source/colorDico.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 210,
+        "height": 256
+      }
+    },
+    {
+      "id": "brand.dreamlabs.app-icons.dreamlabs-startup.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/app-icons/dreamlabs-startup.png",
+      "usage": [
+        "brand",
+        "startup"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-logo-source/startup.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 320,
+        "height": 460
+      }
+    },
+    {
+      "id": "brand.dreamlabs.favicon.favicon-16.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/favicon/favicon-16.png",
+      "usage": [
+        "brand",
+        "favicon"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "generated",
+      "source_ref": "dreamlabs-logo-source/colorDico.png",
+      "normalized_from": "resized to 16x16 PNG from colorDico.png",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "brand.dreamlabs.favicon.favicon-32.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/favicon/favicon-32.png",
+      "usage": [
+        "brand",
+        "favicon"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "generated",
+      "source_ref": "dreamlabs-logo-source/colorDico.png",
+      "normalized_from": "resized to 32x32 PNG from colorDico.png",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "id": "brand.dreamlabs.favicon.favicon-64.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/favicon/favicon-64.png",
+      "usage": [
+        "brand",
+        "favicon"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "generated",
+      "source_ref": "dreamlabs-logo-source/colorDico.png",
+      "normalized_from": "resized to 64x64 PNG from colorDico.png",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": "brand.dreamlabs.favicon.favicon.ico",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "ico",
+      "path": "/brand/dreamlabs/favicon/favicon.ico",
+      "usage": [
+        "brand",
+        "favicon"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-logo-source/colorD.ico",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 210,
+        "height": 256
+      }
+    },
+    {
+      "id": "brand.dreamlabs.logos.dreamlabs-logo-black-large.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/logos/dreamlabs-logo-black-large.png",
+      "usage": [
+        "brand",
+        "logo",
+        "black",
+        "large"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-logo-source/black_h.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 3543,
+        "height": 1654
+      }
+    },
+    {
+      "id": "brand.dreamlabs.logos.dreamlabs-logo-black.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/logos/dreamlabs-logo-black.png",
+      "usage": [
+        "brand",
+        "logo",
+        "black"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-logo-source/black.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 500,
+        "height": 235
+      }
+    },
+    {
+      "id": "brand.dreamlabs.logos.dreamlabs-logo-color-large.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/logos/dreamlabs-logo-color-large.png",
+      "usage": [
+        "brand",
+        "logo",
+        "color",
+        "large"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-logo-source/color_h.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 3543,
+        "height": 1654
+      }
+    },
+    {
+      "id": "brand.dreamlabs.logos.dreamlabs-logo-color-margin.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/logos/dreamlabs-logo-color-margin.png",
+      "usage": [
+        "brand",
+        "logo",
+        "color",
+        "margin"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-logo-source/color_s_margin.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 320,
+        "height": 180
+      }
+    },
+    {
+      "id": "brand.dreamlabs.logos.dreamlabs-logo-color-small.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/logos/dreamlabs-logo-color-small.png",
+      "usage": [
+        "brand",
+        "logo",
+        "color",
+        "small"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-logo-source/color_s.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 250,
+        "height": 117
+      }
+    },
+    {
+      "id": "brand.dreamlabs.logos.dreamlabs-logo-color.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/logos/dreamlabs-logo-color.png",
+      "usage": [
+        "brand",
+        "logo",
+        "color"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-logo-source/color.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 500,
+        "height": 235
+      }
+    },
+    {
+      "id": "brand.dreamlabs.logos.dreamlabs-logo-white-large.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/logos/dreamlabs-logo-white-large.png",
+      "usage": [
+        "brand",
+        "logo",
+        "white",
+        "large"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-logo-source/white_h.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 3543,
+        "height": 1654
+      }
+    },
+    {
+      "id": "brand.dreamlabs.logos.dreamlabs-logo-white.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/logos/dreamlabs-logo-white.png",
+      "usage": [
+        "brand",
+        "logo",
+        "white"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-logo-source/white.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 500,
+        "height": 235
+      }
+    },
+    {
+      "id": "brand.dreamlabs.logos.dreamlabs-symbol-color-large.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/logos/dreamlabs-symbol-color-large.png",
+      "usage": [
+        "brand",
+        "symbol",
+        "color",
+        "large"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-logo-source/colorD_h.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 1951,
+        "height": 2362
+      }
+    },
+    {
+      "id": "brand.dreamlabs.logos.dreamlabs-symbol-color.png",
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/logos/dreamlabs-symbol-color.png",
+      "usage": [
+        "brand",
+        "symbol",
+        "color"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-logo-source/colorD.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 406,
+        "height": 495
+      }
+    },
+    {
+      "id": "brand.dreamlabs.product-logos.adm.png",
+      "category": "product-logos",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/product-logos/adm.png",
+      "usage": [
+        "product-logo",
+        "2024"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-product-logo-source/2024 new/ADM.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "id": "brand.dreamlabs.product-logos.cafe.png",
+      "category": "product-logos",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/product-logos/cafe.png",
+      "usage": [
+        "product-logo",
+        "2024"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-product-logo-source/2024 new/CAFE.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "id": "brand.dreamlabs.product-logos.cms.png",
+      "category": "product-logos",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/product-logos/cms.png",
+      "usage": [
+        "product-logo",
+        "2024"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-product-logo-source/2024 new/CMS.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "id": "brand.dreamlabs.product-logos.dac.png",
+      "category": "product-logos",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/product-logos/dac.png",
+      "usage": [
+        "product-logo",
+        "2024"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-product-logo-source/2024 new/DAC.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "id": "brand.dreamlabs.product-logos.gdtools.png",
+      "category": "product-logos",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/product-logos/gdtools.png",
+      "usage": [
+        "product-logo",
+        "2024"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-product-logo-source/2024 new/GDTools.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "id": "brand.dreamlabs.product-logos.legacy-cafe.png",
+      "category": "product-logos",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/product-logos/legacy-cafe.png",
+      "usage": [
+        "product-logo",
+        "legacy"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-product-logo-source/product_cafe.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 310,
+        "height": 153
+      }
+    },
+    {
+      "id": "brand.dreamlabs.product-logos.legacy-fms.png",
+      "category": "product-logos",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/product-logos/legacy-fms.png",
+      "usage": [
+        "product-logo",
+        "legacy"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-product-logo-source/product_fms.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 311,
+        "height": 152
+      }
+    },
+    {
+      "id": "brand.dreamlabs.product-logos.legacy-wcms.png",
+      "category": "product-logos",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/product-logos/legacy-wcms.png",
+      "usage": [
+        "product-logo",
+        "legacy"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-product-logo-source/product_wcms.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 316,
+        "height": 151
+      }
+    },
+    {
+      "id": "brand.dreamlabs.product-logos.logo-fms.png",
+      "category": "product-logos",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/product-logos/logo-fms.png",
+      "usage": [
+        "product-logo",
+        "legacy"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-product-logo-source/logo_fms.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 299,
+        "height": 165
+      }
+    },
+    {
+      "id": "brand.dreamlabs.product-logos.logo-push.png",
+      "category": "product-logos",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/product-logos/logo-push.png",
+      "usage": [
+        "product-logo",
+        "legacy"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-product-logo-source/logo_push.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 299,
+        "height": 165
+      }
+    },
+    {
+      "id": "brand.dreamlabs.product-logos.logo-wcms.png",
+      "category": "product-logos",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/product-logos/logo-wcms.png",
+      "usage": [
+        "product-logo",
+        "legacy"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-product-logo-source/logo_wcms.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 299,
+        "height": 165
+      }
+    },
+    {
+      "id": "brand.dreamlabs.product-logos.notice.png",
+      "category": "product-logos",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/product-logos/notice.png",
+      "usage": [
+        "product-logo",
+        "2024"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-product-logo-source/2024 new/NOTICE.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "id": "brand.dreamlabs.product-logos.ntwrap.png",
+      "category": "product-logos",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/product-logos/ntwrap.png",
+      "usage": [
+        "product-logo",
+        "2024"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-product-logo-source/2024 new/NtWrap.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "id": "brand.dreamlabs.product-logos.sgen.png",
+      "category": "product-logos",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/product-logos/sgen.png",
+      "usage": [
+        "product-logo",
+        "2024"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-product-logo-source/2024 new/SGEN.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "id": "brand.dreamlabs.product-logos.tam.png",
+      "category": "product-logos",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/product-logos/tam.png",
+      "usage": [
+        "product-logo",
+        "2024"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-product-logo-source/2024 new/TAM.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "id": "brand.dreamlabs.product-logos.wat.png",
+      "category": "product-logos",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/product-logos/wat.png",
+      "usage": [
+        "product-logo",
+        "2024"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-product-logo-source/2024 new/WAT.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "id": "brand.dreamlabs.product-logos.wcms.png",
+      "category": "product-logos",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/product-logos/wcms.png",
+      "usage": [
+        "product-logo",
+        "2024"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-product-logo-source/2024 new/WCMS.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "id": "brand.dreamlabs.web.dreamlabs-logo-gray.png",
+      "category": "web",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/web/dreamlabs-logo-gray.png",
+      "usage": [
+        "web",
+        "homepage",
+        "logo-variant"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-homepage-2023-renewal-source/로고 반전형 w300/GRAY LOGO.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 300,
+        "height": 141
+      }
+    },
+    {
+      "id": "brand.dreamlabs.web.dreamlabs-logo-invert-0.png",
+      "category": "web",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/web/dreamlabs-logo-invert-0.png",
+      "usage": [
+        "web",
+        "homepage",
+        "logo-variant"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-homepage-2023-renewal-source/로고 반전형 w300/0%.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 300,
+        "height": 141
+      }
+    },
+    {
+      "id": "brand.dreamlabs.web.dreamlabs-logo-invert-10.png",
+      "category": "web",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/web/dreamlabs-logo-invert-10.png",
+      "usage": [
+        "web",
+        "homepage",
+        "logo-variant"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-homepage-2023-renewal-source/로고 반전형 w300/10%.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 300,
+        "height": 141
+      }
+    },
+    {
+      "id": "brand.dreamlabs.web.dreamlabs-logo-invert-20.png",
+      "category": "web",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/web/dreamlabs-logo-invert-20.png",
+      "usage": [
+        "web",
+        "homepage",
+        "logo-variant"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-homepage-2023-renewal-source/로고 반전형 w300/20%.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 300,
+        "height": 141
+      }
+    },
+    {
+      "id": "brand.dreamlabs.web.dreamlabs-logo-invert-30.png",
+      "category": "web",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/web/dreamlabs-logo-invert-30.png",
+      "usage": [
+        "web",
+        "homepage",
+        "logo-variant"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-homepage-2023-renewal-source/로고 반전형 w300/30%.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 300,
+        "height": 141
+      }
+    },
+    {
+      "id": "brand.dreamlabs.web.dreamlabs-logo-invert-50.png",
+      "category": "web",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/web/dreamlabs-logo-invert-50.png",
+      "usage": [
+        "web",
+        "homepage",
+        "logo-variant"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-homepage-2023-renewal-source/로고 반전형 w300/50%.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 300,
+        "height": 141
+      }
+    },
+    {
+      "id": "brand.dreamlabs.web.dreamlabs-logo-invert-60.png",
+      "category": "web",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/web/dreamlabs-logo-invert-60.png",
+      "usage": [
+        "web",
+        "homepage",
+        "logo-variant"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-homepage-2023-renewal-source/로고 반전형 w300/60%.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 300,
+        "height": 141
+      }
+    },
+    {
+      "id": "brand.dreamlabs.web.dreamlabs-logo-invert-70.png",
+      "category": "web",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/brand/dreamlabs/web/dreamlabs-logo-invert-70.png",
+      "usage": [
+        "web",
+        "homepage",
+        "logo-variant"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-homepage-2023-renewal-source/로고 반전형 w300/70%.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 300,
+        "height": 141
+      }
+    },
+    {
+      "id": "css.dreamlabs-tokens.css",
+      "category": "css",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "css",
+      "path": "/css/dreamlabs-tokens.css",
+      "usage": [
+        "css",
+        "design-token"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "generated",
+      "source_ref": "candidate tokens from bootstrap UI baseline",
+      "normalized_from": "generated candidate token file",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists."
+    },
+    {
+      "id": "css.dreamlabs-tokens.json",
+      "category": "css",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "json",
+      "path": "/css/dreamlabs-tokens.json",
+      "usage": [
+        "css",
+        "design-token"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "generated",
+      "source_ref": "candidate tokens from bootstrap UI baseline",
+      "normalized_from": "generated candidate token file",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists."
+    },
+    {
+      "id": "footer.dreamlabs.dreamlabs-logo-black.png",
+      "category": "footer",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/footer/dreamlabs/dreamlabs-logo-black.png",
+      "usage": [
+        "footer",
+        "attribution",
+        "black"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-logo-source/logo/logo-default.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 500,
+        "height": 235
+      }
+    },
+    {
+      "id": "footer.dreamlabs.dreamlabs-logo-default.png",
+      "category": "footer",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "png",
+      "path": "/footer/dreamlabs/dreamlabs-logo-default.png",
+      "usage": [
+        "footer",
+        "attribution"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "local-drive",
+      "source_ref": "dreamlabs-logo-source/logo/logo.png",
+      "normalized_from": "renamed copy",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "dimensions": {
+        "width": 500,
+        "height": 235
+      }
+    },
+    {
+      "id": "ui-patterns.backgrounds.dreamlabs-grid-subtle.svg",
+      "category": "ui-patterns",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "svg",
+      "path": "/ui-patterns/backgrounds/dreamlabs-grid-subtle.svg",
+      "usage": [
+        "ui-pattern",
+        "background"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "generated",
+      "source_ref": "candidate UI pattern generated for inspection bootstrap",
+      "normalized_from": "generated SVG",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists."
+    },
+    {
+      "id": "ui-patterns.dividers.dreamlabs-divider-signal.svg",
+      "category": "ui-patterns",
+      "status": "candidate",
+      "version": "0.1.0-candidate",
+      "format": "svg",
+      "path": "/ui-patterns/dividers/dreamlabs-divider-signal.svg",
+      "usage": [
+        "ui-pattern",
+        "divider"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "generated",
+      "source_ref": "candidate UI pattern generated for inspection bootstrap",
+      "normalized_from": "generated SVG",
+      "placeholder_only": false,
+      "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists."
+    }
+  ]
+}
