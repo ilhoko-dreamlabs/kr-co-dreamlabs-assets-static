@@ -17,4 +17,10 @@ Use root-relative paths after the custom domain is attached:
 <img src="/brand/dreamlabs/logos/dreamlabs-logo-color.png" alt="DreamLabs">
 ```
 
+DreamLabs operational agent assets use the top-level `agents` namespace:
+
+```html
+<img src="/agents/dreamlabs-worker/icon/dreamlabs-bot-icon.png" alt="DreamLabs worker agent">
+```
+
 For GitHub Pages project preview URLs, use the inspection UI rather than treating root-relative paths as final.

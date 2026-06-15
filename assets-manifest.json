@@ -1,11 +1,12 @@
 {
   "schema": "dreamlabs-assets-manifest-v0.1",
-  "generated": "2026-05-28",
-  "version": "0.1.0-candidate",
+  "generated": "2026-06-15",
+  "version": "0.1.1",
   "source_scope": [
     "operator-provided DreamLabs logo source folder",
     "operator-provided DreamLabs product-logo source folder",
-    "operator-provided DreamLabs 2023 renewal source folder"
+    "operator-provided DreamLabs 2023 renewal source folder",
+    "operator-provided DreamLabs worker agent official asset attachment"
   ],
   "planned_host": "assets.dreamlabs.co.kr",
   "status": "candidate",
@@ -1034,6 +1035,30 @@
       "dimensions": {
         "width": 300,
         "height": 141
+      }
+    },
+    {
+      "id": "agents.dreamlabs-worker.icon.dreamlabs-bot-icon.png",
+      "category": "agents",
+      "status": "approved",
+      "version": "0.1.1",
+      "format": "png",
+      "path": "/agents/dreamlabs-worker/icon/dreamlabs-bot-icon.png",
+      "usage": [
+        "agent",
+        "worker-agent",
+        "bot-icon",
+        "official"
+      ],
+      "owner": "dreamlabs",
+      "source_type": "operator-provided",
+      "source_ref": "standalone-worker attachment dreamlabs-bot-icon.png",
+      "normalized_from": "approved direct copy from operator-provided attachment",
+      "placeholder_only": false,
+      "notes": "Official DreamLabs worker agent asset designated by operator on 2026-06-15. Runtime availability requires commit, push, and GitHub Pages deployment.",
+      "dimensions": {
+        "width": 1024,
+        "height": 1024
       }
     },
     {

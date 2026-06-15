@@ -20,6 +20,7 @@ It follows the broad structure of `com-wcamper-assets-static` so DreamLabs sites
 - `assets-manifest.json`: candidate asset registry
 - `assets-index.md`: category and priority index
 - `brand/`: DreamLabs brand, app icon, favicon, product logo, and web logo candidates
+- `agents/`: DreamLabs operational agent/persona assets
 - `footer/`: footer attribution candidates
 - `og-social/`: OG/social placeholder area
 - `icons/`: line icon placeholder area
@@ -32,6 +33,7 @@ It follows the broad structure of `com-wcamper-assets-static` so DreamLabs sites
 - Company logos: operator-provided DreamLabs logo source folder
 - Product logos: operator-provided DreamLabs product-logo source folder
 - Homepage logo variants: operator-provided DreamLabs 2023 renewal source folder
+- Worker agent icon: operator-provided DreamLabs worker agent official asset attachment
 
 ## Boundary
 

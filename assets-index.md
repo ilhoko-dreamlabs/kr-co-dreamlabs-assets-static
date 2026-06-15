@@ -3,6 +3,7 @@
 ## Candidate Categories
 
 - `brand`: DreamLabs logo, symbol, favicon, and app icon candidates.
+- `agents`: DreamLabs operational agent/persona assets.
 - `product-logos`: DreamLabs product logo candidates from the 2024 product logo source set.
 - `footer`: Footer attribution logo candidates.
 - `web`: Homepage logo variants from the 2023 renewal source folder.
@@ -11,11 +12,11 @@
 
 ## Candidate Baseline
 
-- version: `0.1.0-candidate`
-- generated date: `2026-05-28`
+- version: `0.1.1`
+- generated date: `2026-06-15`
 - status: `candidate`
 - planned host: `assets.dreamlabs.co.kr`
-- source scope: approved local DreamLabs operating folders only
+- source scope: approved local DreamLabs operating folders and operator-provided official worker agent attachment
 
 ## P0 Candidate Assets
 
@@ -23,6 +24,7 @@
 - `brand.dreamlabs.logos.dreamlabs-logo-black.png`
 - `brand.dreamlabs.logos.dreamlabs-logo-white.png`
 - `brand.dreamlabs.logos.dreamlabs-symbol-color.png`
+- `agents.dreamlabs-worker.icon.dreamlabs-bot-icon.png`
 - `brand.dreamlabs.favicon.favicon.ico`
 - `brand.dreamlabs.app-icons.dreamlabs-app-icon-512.png`
 - `product-logos.dreamlabs.wcms.png`
@@ -35,3 +37,11 @@
 - `assets-manifest.json` is the single candidate registry for runtime-safe files.
 - Missing or unverified assets stay in `README-placeholder.md`, not the manifest.
 - Keep SSoT candidate/current context separate from approved or runtime-applied claims.
+
+## Approved Official Assets
+
+- `agents.dreamlabs-worker.icon.dreamlabs-bot-icon.png`
+  - path: `/agents/dreamlabs-worker/icon/dreamlabs-bot-icon.png`
+  - status: `approved`
+  - designation: DreamLabs worker agent official asset
+  - runtime note: available on `assets.dreamlabs.co.kr` after commit, push, and GitHub Pages deployment

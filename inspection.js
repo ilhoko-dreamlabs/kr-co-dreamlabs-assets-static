@@ -87,6 +87,7 @@ function renderHome(manifest, assets) {
 
   document.getElementById('home-categories').innerHTML = [
     ['brand', './brand/index.html', 'logo · symbol · favicon · app icon'],
+    ['agents', './assets-index.md', 'worker agent · persona assets'],
     ['product-logos', './product-logos/index.html', '2024 product set · legacy product set'],
     ['footer', './footer/index.html', 'attribution logos'],
     ['web', './brand/index.html', 'homepage logo variants'],
@@ -106,6 +107,7 @@ function renderHome(manifest, assets) {
   const featured = [
     [byPath(assets, '/brand/dreamlabs/logos/dreamlabs-logo-color.png'), 'Color Logo', 'DreamLabs 기본 컬러 로고 후보'],
     [byPath(assets, '/brand/dreamlabs/logos/dreamlabs-symbol-color.png'), 'Color Symbol', 'DreamLabs 심볼 후보'],
+    [byPath(assets, '/agents/dreamlabs-worker/icon/dreamlabs-bot-icon.png'), 'Worker Agent Icon', 'DreamLabs worker agent 공식 asset'],
     [byPath(assets, '/brand/dreamlabs/app-icons/dreamlabs-app-icon-512.png'), 'App Icon 512', 'resized app icon 후보'],
     [byPath(assets, '/brand/dreamlabs/product-logos/wcms.png'), 'WCMS Product Logo', '2024 product logo 후보']
   ].filter(([asset]) => asset);
