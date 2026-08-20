@@ -23,4 +23,17 @@ DreamLabs operational agent assets use the top-level `agents` namespace:
 <img src="/agents/dreamlabs-worker/icon/dreamlabs-bot-icon.png" alt="DreamLabs worker agent">
 ```
 
+Worker Host sub-brand assets use `brand/worker-host` so they remain separate from both the DreamLabs company brand and operational agent/persona assets:
+
+```html
+<link rel="icon" href="/brand/worker-host/favicon/favicon.ico">
+<img src="/brand/worker-host/logos/worker-host-logo.svg" alt="DreamLabs Worker Host">
+```
+
+Worker Host token candidates are available separately from the default DreamLabs token file:
+
+```html
+<link rel="stylesheet" href="/css/worker-host-tokens.css">
+```
+
 For GitHub Pages project preview URLs, use the inspection UI rather than treating root-relative paths as final.

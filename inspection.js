@@ -87,6 +87,7 @@ function renderHome(manifest, assets) {
 
   document.getElementById('home-categories').innerHTML = [
     ['brand', './brand/index.html', 'logo · symbol · favicon · app icon'],
+    ['worker-host', './brand/worker-host/index.html', 'sub-brand logo · favicon · app icon · tokens'],
     ['agents', './assets-index.md', 'worker agent · persona assets'],
     ['product-logos', './product-logos/index.html', '2024 product set · legacy product set'],
     ['footer', './footer/index.html', 'attribution logos'],
@@ -107,6 +108,8 @@ function renderHome(manifest, assets) {
   const featured = [
     [byPath(assets, '/brand/dreamlabs/logos/dreamlabs-logo-color.png'), 'Color Logo', 'DreamLabs 기본 컬러 로고 후보'],
     [byPath(assets, '/brand/dreamlabs/logos/dreamlabs-symbol-color.png'), 'Color Symbol', 'DreamLabs 심볼 후보'],
+    [byPath(assets, '/brand/worker-host/logos/worker-host-logo.svg'), 'Worker Host Logo', 'Worker Host 서브브랜드 로고 후보'],
+    [byPath(assets, '/brand/worker-host/app-icons/worker-host-app-icon-512.png'), 'Worker Host App Icon', 'Worker Host app icon 후보'],
     [byPath(assets, '/agents/dreamlabs-worker/icon/dreamlabs-bot-icon.png'), 'Worker Agent Icon', 'DreamLabs worker agent 공식 asset'],
     [byPath(assets, '/brand/dreamlabs/app-icons/dreamlabs-app-icon-512.png'), 'App Icon 512', 'resized app icon 후보'],
     [byPath(assets, '/brand/dreamlabs/product-logos/wcms.png'), 'WCMS Product Logo', '2024 product logo 후보']
@@ -123,6 +126,8 @@ function renderBrand(assets) {
     [byPath(assets, '/brand/dreamlabs/app-icons/dreamlabs-app-icon-512.png'), 'App Icon 512', '아이콘 후보'],
     [byPath(assets, '/brand/dreamlabs/favicon/favicon-32.png'), 'Favicon 32', '브라우저 favicon 후보'],
     [byPath(assets, '/brand/dreamlabs/web/dreamlabs-logo-gray.png'), 'Homepage Gray Logo', '2023 renewal 로고 후보'],
+    [byPath(assets, '/brand/worker-host/logos/worker-host-logo.svg'), 'Worker Host Logo', '서브브랜드 로고 후보'],
+    [byPath(assets, '/brand/worker-host/favicon/favicon-32.png'), 'Worker Host Favicon 32', '서브브랜드 favicon 후보'],
     [byPath(assets, '/ui-patterns/backgrounds/dreamlabs-grid-subtle.svg'), 'Grid Pattern', 'UI pattern 후보']
   ].filter(([asset]) => asset);
   document.getElementById('brand-featured-grid').innerHTML = cards.map(([asset, title, description, previewClass]) => assetCard(asset, { title, description, previewClass })).join('');
@@ -135,9 +140,48 @@ function renderBrand(assets) {
     ['Favicon ICO', '/brand/dreamlabs/favicon/favicon.ico'],
     ['App icon 512', '/brand/dreamlabs/app-icons/dreamlabs-app-icon-512.png'],
     ['CSS tokens', '/css/dreamlabs-tokens.css'],
-    ['JSON tokens', '/css/dreamlabs-tokens.json']
+    ['JSON tokens', '/css/dreamlabs-tokens.json'],
+    ['Worker Host inspection', '/brand/worker-host/index.html'],
+    ['Worker Host logo', '/brand/worker-host/logos/worker-host-logo.svg'],
+    ['Worker Host favicon', '/brand/worker-host/favicon/favicon.ico'],
+    ['Worker Host tokens', '/css/worker-host-tokens.css']
   ];
   document.getElementById('brand-reference-list').innerHTML = refs.map(([label, path]) => `
+    <article class="card">
+      <strong>${label}</strong>
+      <div class="mono">${path}</div>
+    </article>
+  `).join('');
+}
+
+function renderWorkerHost(assets) {
+  const cards = [
+    [byPath(assets, '/brand/worker-host/logos/worker-host-logo.svg'), 'Worker Host Logo', '밝은 배경용 horizontal logo 후보'],
+    [byPath(assets, '/brand/worker-host/logos/worker-host-logo-white.svg'), 'Worker Host White Logo', '어두운 배경용 horizontal logo 후보', 'preview--worker-dark'],
+    [byPath(assets, '/brand/worker-host/logos/worker-host-symbol.svg'), 'Worker Host Symbol', '편집 가능한 SVG symbol 후보'],
+    [byPath(assets, '/brand/worker-host/app-icons/worker-host-app-icon-512.png'), 'App Icon 512', 'Worker Host app icon 후보'],
+    [byPath(assets, '/brand/worker-host/favicon/favicon-32.png'), 'Favicon 32', 'Worker Host favicon 후보'],
+    [byPath(assets, '/brand/worker-host/web/worker-host-og.svg'), 'Social Card', 'Worker Host OG/social preview 후보'],
+    [byPath(assets, '/css/worker-host-tokens.css'), 'CSS Tokens', 'Worker Host CSS token 후보'],
+    [byPath(assets, '/css/worker-host-tokens.json'), 'JSON Tokens', 'Worker Host JSON token 후보']
+  ].filter(([asset]) => asset);
+  document.getElementById('worker-host-featured-grid').innerHTML = cards.map(([asset, title, description, previewClass]) => {
+    if (asset.category === 'css') return fileCard(asset, title, description);
+    return assetCard(asset, { title, description, previewClass });
+  }).join('');
+
+  const refs = [
+    ['Inspection page', '/brand/worker-host/index.html'],
+    ['Color logo', '/brand/worker-host/logos/worker-host-logo.svg'],
+    ['White logo', '/brand/worker-host/logos/worker-host-logo-white.svg'],
+    ['Symbol', '/brand/worker-host/logos/worker-host-symbol.svg'],
+    ['Favicon ICO', '/brand/worker-host/favicon/favicon.ico'],
+    ['App icon 512', '/brand/worker-host/app-icons/worker-host-app-icon-512.png'],
+    ['Social card', '/brand/worker-host/web/worker-host-og.svg'],
+    ['CSS tokens', '/css/worker-host-tokens.css'],
+    ['JSON tokens', '/css/worker-host-tokens.json']
+  ];
+  document.getElementById('worker-host-reference-list').innerHTML = refs.map(([label, path]) => `
     <article class="card">
       <strong>${label}</strong>
       <div class="mono">${path}</div>
@@ -194,6 +238,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const page = document.body.dataset.page;
     if (page === 'home') renderHome(manifest, assets);
     if (page === 'brand') renderBrand(assets);
+    if (page === 'worker-host') renderWorkerHost(assets);
     if (page === 'products') renderProducts(assets);
     if (page === 'footer') renderFooter(assets);
   } catch (error) {

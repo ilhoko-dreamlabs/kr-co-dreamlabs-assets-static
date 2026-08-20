@@ -1,0 +1,16 @@
+:root {
+  --wh-ink: #101828;
+  --wh-ink-soft: #1d2939;
+  --wh-muted: #5b6678;
+  --wh-surface: #ffffff;
+  --wh-surface-soft: #f3f8fb;
+  --wh-surface-dark: #08111f;
+  --wh-line: #cddfe8;
+  --wh-cyan: #38bdf8;
+  --wh-teal: #0d9488;
+  --wh-teal-soft: #ccfbf1;
+  --wh-lime: #a3e635;
+  --wh-blue-soft: #e0f2fe;
+  --wh-radius: 8px;
+  --wh-shadow: 0 14px 34px rgba(8, 17, 31, 0.12);
+}

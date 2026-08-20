@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">DreamLabs Worker Host social card</title>
+  <desc id="desc">Candidate social preview image for Worker Host pages.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="0.58" stop-color="#102f3d"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="96" y1="165" x2="338" y2="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.52" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#a3e635"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <path d="M70 112h1060M70 315h1060M70 518h1060M220 58v514M590 58v514M960 58v514" stroke="#5eead4" stroke-opacity="0.1" stroke-width="4"/>
+  <rect x="84" y="150" width="252" height="252" rx="50" fill="#0f172a" stroke="#5eead4" stroke-opacity="0.22" stroke-width="4"/>
+  <path d="M116 222h188M116 330h188M160 178v268M264 178v268" stroke="#5eead4" stroke-opacity="0.18" stroke-width="10"/>
+  <path d="M125 222l45 126 40-88 40 88 45-126" fill="none" stroke="url(#signal)" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="125" cy="222" r="15" fill="#e0f2fe"/>
+  <circle cx="210" cy="260" r="15" fill="#ccfbf1"/>
+  <circle cx="295" cy="222" r="15" fill="#ecfccb"/>
+  <text x="400" y="250" fill="#f8fafc" font-family="Inter, Pretendard, Segoe UI, Arial, sans-serif" font-size="72" font-weight="800" letter-spacing="0">DreamLabs</text>
+  <text x="400" y="334" fill="#5eead4" font-family="Inter, Pretendard, Segoe UI, Arial, sans-serif" font-size="72" font-weight="800" letter-spacing="0">Worker Host</text>
+  <text x="405" y="408" fill="#bae6fd" font-family="Inter, Pretendard, Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0">runtime assets · approved tools · operational workers</text>
+</svg>

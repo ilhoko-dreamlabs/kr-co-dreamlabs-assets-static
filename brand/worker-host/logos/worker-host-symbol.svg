@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Worker Host symbol</title>
+  <desc id="desc">Candidate DreamLabs Worker Host symbol with a routed W mark.</desc>
+  <defs>
+    <linearGradient id="worker-host-bg" x1="30" y1="20" x2="226" y2="236" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101828"/>
+      <stop offset="0.58" stop-color="#123846"/>
+      <stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="worker-host-signal" x1="64" y1="80" x2="198" y2="178" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.52" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#a3e635"/>
+    </linearGradient>
+    <filter id="worker-host-glow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0f766e" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+  <rect width="256" height="256" rx="48" fill="url(#worker-host-bg)"/>
+  <path d="M44 80h168M44 176h168M80 44v168M176 44v168" stroke="#5eead4" stroke-opacity="0.18" stroke-width="8"/>
+  <g filter="url(#worker-host-glow)">
+    <path d="M56 78l36 100 36-72 36 72 36-100" fill="none" stroke="url(#worker-host-signal)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="56" cy="78" r="13" fill="#e0f2fe"/>
+    <circle cx="128" cy="106" r="13" fill="#ccfbf1"/>
+    <circle cx="200" cy="78" r="13" fill="#ecfccb"/>
+  </g>
+</svg>

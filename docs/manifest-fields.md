@@ -5,7 +5,7 @@
 | field | description |
 | --- | --- |
 | `id` | Dot-path asset id. |
-| `category` | Asset group such as `brand`, `product-logos`, `footer`, `web`, `css`, `ui-patterns`. |
+| `category` | Asset group such as `brand`, `product-logos`, `footer`, `web`, `css`, `ui-patterns`. Worker Host sub-brand assets stay in `brand` with `worker-host` usage tags. |
 | `status` | `candidate`, `approved`, `deprecated`, or `do-not-use`. |
 | `version` | Candidate asset version. |
 | `format` | File extension or delivery format. |

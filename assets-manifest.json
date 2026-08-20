@@ -1,12 +1,13 @@
 {
   "schema": "dreamlabs-assets-manifest-v0.1",
-  "generated": "2026-06-15",
-  "version": "0.1.1",
+  "generated": "2026-08-20",
+  "version": "0.1.2",
   "source_scope": [
     "operator-provided DreamLabs logo source folder",
     "operator-provided DreamLabs product-logo source folder",
     "operator-provided DreamLabs 2023 renewal source folder",
-    "operator-provided DreamLabs worker agent official asset attachment"
+    "operator-provided DreamLabs worker agent official asset attachment",
+    "generated DreamLabs Worker Host sub-brand candidate assets"
   ],
   "planned_host": "assets.dreamlabs.co.kr",
   "status": "candidate",
@@ -1177,6 +1178,305 @@
       "normalized_from": "generated SVG",
       "placeholder_only": false,
       "notes": "Candidate asset. Not canonical or runtime-applied until review/deployment evidence exists."
+    },
+    {
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.2-candidate",
+      "owner": "dreamlabs-worker-host",
+      "source_type": "generated",
+      "source_ref": "DreamLabs Worker Host sub-brand candidate generated from local design brief",
+      "placeholder_only": false,
+      "notes": "Worker Host sub-brand candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "id": "brand.worker-host.logos.worker-host-symbol.svg",
+      "format": "svg",
+      "path": "/brand/worker-host/logos/worker-host-symbol.svg",
+      "usage": [
+        "brand",
+        "worker-host",
+        "symbol",
+        "source"
+      ],
+      "normalized_from": "generated editable SVG symbol candidate",
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    {
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.2-candidate",
+      "owner": "dreamlabs-worker-host",
+      "source_type": "generated",
+      "source_ref": "DreamLabs Worker Host sub-brand candidate generated from local design brief",
+      "placeholder_only": false,
+      "notes": "Worker Host sub-brand candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "id": "brand.worker-host.logos.worker-host-logo.svg",
+      "format": "svg",
+      "path": "/brand/worker-host/logos/worker-host-logo.svg",
+      "usage": [
+        "brand",
+        "worker-host",
+        "logo",
+        "horizontal",
+        "source"
+      ],
+      "normalized_from": "generated editable SVG horizontal logo candidate",
+      "dimensions": {
+        "width": 720,
+        "height": 192
+      }
+    },
+    {
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.2-candidate",
+      "owner": "dreamlabs-worker-host",
+      "source_type": "generated",
+      "source_ref": "DreamLabs Worker Host sub-brand candidate generated from local design brief",
+      "placeholder_only": false,
+      "notes": "Worker Host sub-brand candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "id": "brand.worker-host.logos.worker-host-logo-white.svg",
+      "format": "svg",
+      "path": "/brand/worker-host/logos/worker-host-logo-white.svg",
+      "usage": [
+        "brand",
+        "worker-host",
+        "logo",
+        "horizontal",
+        "white",
+        "source"
+      ],
+      "normalized_from": "generated editable SVG horizontal white logo candidate",
+      "dimensions": {
+        "width": 720,
+        "height": 192
+      }
+    },
+    {
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.2-candidate",
+      "owner": "dreamlabs-worker-host",
+      "source_type": "generated",
+      "source_ref": "DreamLabs Worker Host sub-brand candidate generated from local design brief",
+      "placeholder_only": false,
+      "notes": "Worker Host sub-brand candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "id": "brand.worker-host.web.worker-host-og.svg",
+      "format": "svg",
+      "path": "/brand/worker-host/web/worker-host-og.svg",
+      "usage": [
+        "brand",
+        "worker-host",
+        "web",
+        "og-social",
+        "source"
+      ],
+      "normalized_from": "generated editable SVG social preview candidate",
+      "dimensions": {
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.2-candidate",
+      "owner": "dreamlabs-worker-host",
+      "source_type": "generated",
+      "source_ref": "DreamLabs Worker Host sub-brand candidate generated from local design brief",
+      "placeholder_only": false,
+      "notes": "Worker Host sub-brand candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "id": "brand.worker-host.favicon.favicon-16.png",
+      "format": "png",
+      "path": "/brand/worker-host/favicon/favicon-16.png",
+      "usage": [
+        "brand",
+        "worker-host",
+        "favicon"
+      ],
+      "normalized_from": "resized to 16x16 PNG from generated Worker Host app icon master",
+      "dimensions": {
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.2-candidate",
+      "owner": "dreamlabs-worker-host",
+      "source_type": "generated",
+      "source_ref": "DreamLabs Worker Host sub-brand candidate generated from local design brief",
+      "placeholder_only": false,
+      "notes": "Worker Host sub-brand candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "id": "brand.worker-host.favicon.favicon-32.png",
+      "format": "png",
+      "path": "/brand/worker-host/favicon/favicon-32.png",
+      "usage": [
+        "brand",
+        "worker-host",
+        "favicon"
+      ],
+      "normalized_from": "resized to 32x32 PNG from generated Worker Host app icon master",
+      "dimensions": {
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.2-candidate",
+      "owner": "dreamlabs-worker-host",
+      "source_type": "generated",
+      "source_ref": "DreamLabs Worker Host sub-brand candidate generated from local design brief",
+      "placeholder_only": false,
+      "notes": "Worker Host sub-brand candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "id": "brand.worker-host.favicon.favicon-64.png",
+      "format": "png",
+      "path": "/brand/worker-host/favicon/favicon-64.png",
+      "usage": [
+        "brand",
+        "worker-host",
+        "favicon"
+      ],
+      "normalized_from": "resized to 64x64 PNG from generated Worker Host app icon master",
+      "dimensions": {
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.2-candidate",
+      "owner": "dreamlabs-worker-host",
+      "source_type": "generated",
+      "source_ref": "DreamLabs Worker Host sub-brand candidate generated from local design brief",
+      "placeholder_only": false,
+      "notes": "Worker Host sub-brand candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "id": "brand.worker-host.favicon.favicon.ico",
+      "format": "ico",
+      "path": "/brand/worker-host/favicon/favicon.ico",
+      "usage": [
+        "brand",
+        "worker-host",
+        "favicon"
+      ],
+      "normalized_from": "ICO generated from Worker Host 16/32/64 PNG favicons",
+      "dimensions": {
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.2-candidate",
+      "owner": "dreamlabs-worker-host",
+      "source_type": "generated",
+      "source_ref": "DreamLabs Worker Host sub-brand candidate generated from local design brief",
+      "placeholder_only": false,
+      "notes": "Worker Host sub-brand candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "id": "brand.worker-host.app-icons.worker-host-app-icon-180.png",
+      "format": "png",
+      "path": "/brand/worker-host/app-icons/worker-host-app-icon-180.png",
+      "usage": [
+        "brand",
+        "worker-host",
+        "app-icon"
+      ],
+      "normalized_from": "resized to 180x180 PNG from generated Worker Host app icon master",
+      "dimensions": {
+        "width": 180,
+        "height": 180
+      }
+    },
+    {
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.2-candidate",
+      "owner": "dreamlabs-worker-host",
+      "source_type": "generated",
+      "source_ref": "DreamLabs Worker Host sub-brand candidate generated from local design brief",
+      "placeholder_only": false,
+      "notes": "Worker Host sub-brand candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "id": "brand.worker-host.app-icons.worker-host-app-icon-192.png",
+      "format": "png",
+      "path": "/brand/worker-host/app-icons/worker-host-app-icon-192.png",
+      "usage": [
+        "brand",
+        "worker-host",
+        "app-icon"
+      ],
+      "normalized_from": "resized to 192x192 PNG from generated Worker Host app icon master",
+      "dimensions": {
+        "width": 192,
+        "height": 192
+      }
+    },
+    {
+      "category": "brand",
+      "status": "candidate",
+      "version": "0.1.2-candidate",
+      "owner": "dreamlabs-worker-host",
+      "source_type": "generated",
+      "source_ref": "DreamLabs Worker Host sub-brand candidate generated from local design brief",
+      "placeholder_only": false,
+      "notes": "Worker Host sub-brand candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "id": "brand.worker-host.app-icons.worker-host-app-icon-512.png",
+      "format": "png",
+      "path": "/brand/worker-host/app-icons/worker-host-app-icon-512.png",
+      "usage": [
+        "brand",
+        "worker-host",
+        "app-icon"
+      ],
+      "normalized_from": "generated 512x512 PNG app icon master using ImageMagick primitives",
+      "dimensions": {
+        "width": 512,
+        "height": 512
+      }
+    },
+    {
+      "category": "css",
+      "status": "candidate",
+      "version": "0.1.2-candidate",
+      "owner": "dreamlabs-worker-host",
+      "source_type": "candidate-token",
+      "source_ref": "DreamLabs Worker Host sub-brand candidate generated from local design brief",
+      "placeholder_only": false,
+      "notes": "Worker Host sub-brand candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "id": "css.worker-host-tokens.css",
+      "format": "css",
+      "path": "/css/worker-host-tokens.css",
+      "usage": [
+        "css",
+        "design-tokens",
+        "worker-host"
+      ],
+      "normalized_from": "generated Worker Host CSS design tokens"
+    },
+    {
+      "category": "css",
+      "status": "candidate",
+      "version": "0.1.2-candidate",
+      "owner": "dreamlabs-worker-host",
+      "source_type": "candidate-token",
+      "source_ref": "DreamLabs Worker Host sub-brand candidate generated from local design brief",
+      "placeholder_only": false,
+      "notes": "Worker Host sub-brand candidate asset. Not canonical or runtime-applied until review/deployment evidence exists.",
+      "id": "css.worker-host-tokens.json",
+      "format": "json",
+      "path": "/css/worker-host-tokens.json",
+      "usage": [
+        "css",
+        "design-tokens",
+        "worker-host"
+      ],
+      "normalized_from": "generated Worker Host JSON design tokens"
     }
   ]
 }

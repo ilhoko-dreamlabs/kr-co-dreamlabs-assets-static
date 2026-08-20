@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 192" role="img" aria-labelledby="title desc">
+  <title id="title">DreamLabs Worker Host logo</title>
+  <desc id="desc">Candidate horizontal logo for the DreamLabs Worker Host sub-brand.</desc>
+  <defs>
+    <linearGradient id="mark-bg" x1="12" y1="8" x2="116" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101828"/>
+      <stop offset="0.58" stop-color="#123846"/>
+      <stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="mark-signal" x1="36" y1="42" x2="106" y2="94" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.52" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#a3e635"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="32" width="128" height="128" rx="28" fill="url(#mark-bg)"/>
+  <path d="M46 72h84M46 120h84M64 50v92M112 50v92" stroke="#5eead4" stroke-opacity="0.18" stroke-width="5"/>
+  <path d="M50 72l20 52 18-38 18 38 20-52" fill="none" stroke="url(#mark-signal)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="72" r="7" fill="#e0f2fe"/>
+  <circle cx="88" cy="86" r="7" fill="#ccfbf1"/>
+  <circle cx="126" cy="72" r="7" fill="#ecfccb"/>
+  <text x="184" y="93" fill="#101828" font-family="Inter, Pretendard, Segoe UI, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="0">DreamLabs</text>
+  <text x="184" y="138" fill="#0f766e" font-family="Inter, Pretendard, Segoe UI, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="0">Worker Host</text>
+  <path d="M501 71h76c28 0 51 23 51 51v0" fill="none" stroke="#2dd4bf" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="501" cy="71" r="8" fill="#38bdf8"/>
+  <circle cx="628" cy="122" r="8" fill="#a3e635"/>
+</svg>

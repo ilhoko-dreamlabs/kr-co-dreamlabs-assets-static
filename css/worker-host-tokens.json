@@ -1,0 +1,21 @@
+{
+  "schema": "dreamlabs-worker-host-design-tokens-v0.1-candidate",
+  "status": "candidate",
+  "generated": "2026-08-20",
+  "tokens": {
+    "color.ink": "#101828",
+    "color.ink.soft": "#1d2939",
+    "color.muted": "#5b6678",
+    "color.surface": "#ffffff",
+    "color.surface.soft": "#f3f8fb",
+    "color.surface.dark": "#08111f",
+    "color.line": "#cddfe8",
+    "color.cyan": "#38bdf8",
+    "color.teal": "#0d9488",
+    "color.teal.soft": "#ccfbf1",
+    "color.lime": "#a3e635",
+    "color.blue.soft": "#e0f2fe",
+    "radius.default": "8px",
+    "shadow.default": "0 14px 34px rgba(8, 17, 31, 0.12)"
+  }
+}
