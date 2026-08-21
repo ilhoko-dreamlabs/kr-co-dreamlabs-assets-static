@@ -11,13 +11,14 @@ It follows the broad structure of `com-wcamper-assets-static` so DreamLabs sites
 - baseline: `DreamLabs Asset Pack 0.1.2-candidate`
 - generated date: `2026-08-20`
 - status: `candidate`
-- approval state: not approved as canonical brand master
-- deployment state: not deployed in this session
+- approval state: mixed, with candidate assets and one approved worker agent asset
+- deployment state: deployed static host
+- runtime state: not applied by consuming services
 - usage scope: DreamLabs external/static asset inspection and future shared asset host
 
 ## Structure Overview
 
-- `assets-manifest.json`: candidate asset registry
+- `assets-manifest.json`: public candidate asset registry without internal source provenance
 - `assets-index.md`: category and priority index
 - `brand/`: DreamLabs brand, app icon, favicon, product logo, and web logo candidates
 - `brand/worker-host/`: DreamLabs Worker Host sub-brand logo, favicon, app icon, and web candidates
@@ -28,6 +29,12 @@ It follows the broad structure of `com-wcamper-assets-static` so DreamLabs sites
 - `ui-patterns/`: candidate UI background/divider patterns
 - `css/`: candidate design tokens
 - `docs/`: usage and manifest notes
+
+## Public Manifest Boundary
+
+- The public manifest separates `approval_status`, `deployment_status`, and `runtime_applied`.
+- The public manifest uses `collection` for cross-category sets such as Worker Host.
+- Internal source references and chat/session IDs are not published in `assets-manifest.json`.
 
 ## Source Mapping
 
@@ -41,4 +48,5 @@ It follows the broad structure of `com-wcamper-assets-static` so DreamLabs sites
 
 - This bootstrap includes public-safe logo and product-logo candidates only.
 - Certificates, MOU images, and internal screenshots are intentionally excluded pending public disclosure review.
-- GitHub/static deployment is allowed by task scope, but was not performed without a separate runtime deployment approval.
+- Static deployment status does not imply runtime adoption by consuming services.
+- See `docs/asset-policy.md` before using candidate assets outside DreamLabs-controlled sites.

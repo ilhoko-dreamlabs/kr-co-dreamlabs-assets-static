@@ -279,6 +279,7 @@ h3 {
   background: var(--surface-2);
   color: var(--text);
   font-size: 13px;
+  text-decoration: none;
 }
 
 .chip--worker {

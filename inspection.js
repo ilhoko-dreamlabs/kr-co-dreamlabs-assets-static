@@ -23,15 +23,32 @@ function categoryCounts(assets) {
   }, {});
 }
 
+function collectionCounts(assets) {
+  return assets.reduce((acc, asset) => {
+    const key = asset.collection || asset.category;
+    acc[key] = (acc[key] || 0) + 1;
+    return acc;
+  }, {});
+}
+
 function statusCounts(assets) {
   return assets.reduce((acc, asset) => {
-    acc[asset.status] = (acc[asset.status] || 0) + 1;
+    const key = asset.approval_status || asset.status;
+    acc[key] = (acc[key] || 0) + 1;
+    return acc;
+  }, {});
+}
+
+function runtimeCounts(assets) {
+  return assets.reduce((acc, asset) => {
+    const key = asset.runtime_applied ? 'runtime applied' : 'runtime not applied';
+    acc[key] = (acc[key] || 0) + 1;
     return acc;
   }, {});
 }
 
 function badgeClass(asset) {
-  return asset.source_type === 'generated' ? 'generated' : asset.status;
+  return asset.source_type === 'generated' ? 'generated' : (asset.approval_status || asset.status);
 }
 
 function assetCard(asset, options = {}) {
@@ -52,7 +69,9 @@ function assetCard(asset, options = {}) {
       <div class="meta">
         <div class="mono">id: ${asset.id}</div>
         <div class="mono">path: ${asset.path}</div>
-        <div class="mono">source: ${asset.source_ref}</div>
+        <div class="mono">collection: ${asset.collection || asset.category}</div>
+        <div class="mono">deployment: ${asset.deployment_status || 'source-only'}</div>
+        <div class="mono">runtime: ${asset.runtime_applied ? 'applied' : 'not applied'}</div>
       </div>
     </article>
   `;
@@ -70,6 +89,9 @@ function fileCard(asset, title, description) {
       <div class="meta">
         <div class="mono">id: ${asset.id}</div>
         <div class="mono">path: ${asset.path}</div>
+        <div class="mono">collection: ${asset.collection || asset.category}</div>
+        <div class="mono">deployment: ${asset.deployment_status || 'source-only'}</div>
+        <div class="mono">runtime: ${asset.runtime_applied ? 'applied' : 'not applied'}</div>
         <div class="mono">normalized_from: ${asset.normalized_from}</div>
       </div>
     </article>
@@ -78,32 +100,40 @@ function fileCard(asset, title, description) {
 
 function renderHome(manifest, assets) {
   const counts = categoryCounts(assets);
+  const collections = collectionCounts(assets);
   const statuses = statusCounts(assets);
+  const runtimes = runtimeCounts(assets);
   document.getElementById('summary-metrics').innerHTML = `
-    <article class="metric-card"><strong>${assets.length}</strong><span>total candidate files</span></article>
-    <article class="metric-card"><strong>${statuses.candidate || 0}</strong><span>candidate entries</span></article>
+    <article class="metric-card"><strong>${assets.length}</strong><span>total files</span></article>
+    <article class="metric-card"><strong>${statuses.candidate || 0}</strong><span>candidate approvals</span></article>
+    <article class="metric-card"><strong>${statuses.approved || 0}</strong><span>approved approvals</span></article>
+    <article class="metric-card"><strong>${manifest.deployment_status || 'source-only'}</strong><span>deployment status</span></article>
+    <article class="metric-card"><strong>${runtimes['runtime not applied'] || 0}</strong><span>runtime not applied</span></article>
     <article class="metric-card"><strong>${manifest.version}</strong><span>manifest version</span></article>
   `;
 
   document.getElementById('home-categories').innerHTML = [
-    ['brand', './brand/index.html', 'logo · symbol · favicon · app icon'],
-    ['worker-host', './brand/worker-host/index.html', 'sub-brand logo · favicon · app icon · tokens'],
-    ['agents', './assets-index.md', 'worker agent · persona assets'],
-    ['product-logos', './product-logos/index.html', '2024 product set · legacy product set'],
-    ['footer', './footer/index.html', 'attribution logos'],
-    ['web', './brand/index.html', 'homepage logo variants'],
-    ['css', './docs/asset-usage.md', 'candidate design tokens'],
-    ['ui-patterns', './assets-index.md', 'background · divider']
-  ].map(([key, href, text]) => `
+    ['brand', 'category', './brand/index.html', 'logo · symbol · favicon · app icon'],
+    ['worker-host', 'collection', './brand/worker-host/index.html', 'sub-brand logo · favicon · app icon · tokens'],
+    ['agents', 'category', './assets-index.md', 'worker agent · persona assets'],
+    ['product-logos', 'category', './product-logos/index.html', '2024 product set · legacy product set'],
+    ['footer', 'category', './footer/index.html', 'attribution logos'],
+    ['web', 'category', './brand/index.html', 'homepage logo variants'],
+    ['css', 'category', './docs/asset-usage.md', 'candidate design tokens'],
+    ['ui-patterns', 'category', './assets-index.md', 'background · divider']
+  ].map(([key, scope, href, text]) => {
+    const entryCount = scope === 'collection' ? collections[key] : counts[key];
+    return `
     <article class="card category-card">
       <h3><a href="${href}">${key}</a></h3>
       <p>${text}</p>
       <div class="category-card__meta">
-        <span class="mono">entries: ${counts[key] || 0}</span>
-        <span class="badge candidate">${manifest.status}</span>
+        <span class="mono">entries: ${entryCount || 0}</span>
+        <span class="badge candidate">${scope}</span>
       </div>
     </article>
-  `).join('');
+  `;
+  }).join('');
 
   const featured = [
     [byPath(assets, '/brand/dreamlabs/logos/dreamlabs-logo-color.png'), 'Color Logo', 'DreamLabs 기본 컬러 로고 후보'],

@@ -31,14 +31,17 @@
 - `brand.worker-host.logos.worker-host-symbol.svg`
 - `brand.worker-host.favicon.favicon.ico`
 - `brand.worker-host.app-icons.worker-host-app-icon-512.png`
-- `product-logos.dreamlabs.wcms.png`
-- `product-logos.dreamlabs.cms.png`
-- `product-logos.dreamlabs.dac.png`
+- `brand.dreamlabs.product-logos.wcms.png`
+- `brand.dreamlabs.product-logos.cms.png`
+- `brand.dreamlabs.product-logos.dac.png`
 - `footer.dreamlabs.dreamlabs-logo-default.png`
 
 ## Registry Rules
 
 - `assets-manifest.json` is the single candidate registry for runtime-safe files.
+- Public manifest entries separate `approval_status`, `deployment_status`, and `runtime_applied`.
+- Public manifest entries group cross-category product sets with `collection`.
+- Internal source provenance is excluded from the public manifest.
 - Missing or unverified assets stay in `README-placeholder.md`, not the manifest.
 - Keep SSoT candidate/current context separate from approved or runtime-applied claims.
 
